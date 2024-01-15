@@ -13,8 +13,6 @@ import os
 CAMINHO_ARQUIVO = Path(__file__).parent / 'periodo.json'
 CAMINHO_ARQUIVO_SETTINGS = Path(__file__).parent / 'settings.json'
 
-# teste git
-
 
 def carregar_dados_arquivo(lista, caminho_arquivo):
     dados = []
