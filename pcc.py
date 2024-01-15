@@ -13,6 +13,12 @@ import os
 CAMINHO_ARQUIVO = Path(__file__).parent / 'periodo.json'
 CAMINHO_ARQUIVO_SETTINGS = Path(__file__).parent / 'settings.json'
 
+# teste git
+
+
+def git():
+    ...
+
 
 def carregar_dados_arquivo(lista, caminho_arquivo):
     dados = []
@@ -167,7 +173,8 @@ def incluir_horas():
     saida = datetime.strptime(fim_dt, '%H:%M')
     horas = saida-entrada
     site = input('Local do trabalho: ') or 'Unknown'
-    dias[int(dia_escolhido)-1] = [atual[0], inicio_dt, fim_dt, str(horas), site]
+    dias[int(dia_escolhido)-1] = [atual[0],
+                                  inicio_dt, fim_dt, str(horas), site]
     mostrar_lista()
     salvar_dados(dias, CAMINHO_ARQUIVO)
 
