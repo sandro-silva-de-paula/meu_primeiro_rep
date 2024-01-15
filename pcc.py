@@ -16,15 +16,6 @@ CAMINHO_ARQUIVO_SETTINGS = Path(__file__).parent / 'settings.json'
 # teste git
 
 
-def git():
-    return
-
-
-def teste():
-
-    ...
-
-
 def carregar_dados_arquivo(lista, caminho_arquivo):
     dados = []
     try:
