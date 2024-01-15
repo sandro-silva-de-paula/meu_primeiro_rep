@@ -18,6 +18,10 @@ CAMINHO_ARQUIVO_SETTINGS = Path(__file__).parent / 'settings.json'
 
 def git():
     return
+
+
+def teste():
+
     ...
 
 
