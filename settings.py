@@ -6,6 +6,8 @@ import pcc
 CAMINHO_ARQUIVO = pcc.CAMINHO_ARQUIVO_SETTINGS
 print(CAMINHO_ARQUIVO)
 
+################
+###############################
 
 lista = pcc.carregar_dados_arquivo([], CAMINHO_ARQUIVO)
 
